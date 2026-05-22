@@ -1,0 +1,290 @@
+<div style="width:100%;
+min-height:100vh;
+margin:0;
+padding:18px;
+box-sizing:border-box;
+font-family:Poppins,Arial,sans-serif;
+background:#0b1020;
+overflow:hidden;
+position:relative;
+color:#fff;
+text-align:center;">
+
+<style>
+
+body{
+margin:0;
+padding:0;
+background:#0b1020;
+}
+
+/* Background Glow */
+.bgGlow1{
+position:absolute;
+width:380px;
+height:380px;
+background:#22c55e;
+filter:blur(140px);
+opacity:0.14;
+top:-120px;
+left:-120px;
+animation:moveGlow1 8s infinite alternate;
+}
+
+.bgGlow2{
+position:absolute;
+width:320px;
+height:320px;
+background:#3b82f6;
+filter:blur(130px);
+opacity:0.14;
+bottom:-120px;
+right:-100px;
+animation:moveGlow2 8s infinite alternate;
+}
+
+@keyframes moveGlow1{
+0%{transform:translate(0,0);}
+100%{transform:translate(70px,45px);}
+}
+
+@keyframes moveGlow2{
+0%{transform:translate(0,0);}
+100%{transform:translate(-60px,-40px);}
+}
+
+/* Main Card */
+.mainCard{
+position:relative;
+z-index:2;
+max-width:500px;
+margin:auto;
+padding:26px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(16px);
+border-radius:32px;
+border:1px solid rgba(255,255,255,0.08);
+box-shadow:0 0 40px rgba(0,0,0,0.5);
+}
+
+/* Floating Image */
+@keyframes floatImg{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-7px);}
+100%{transform:translateY(0px);}
+}
+
+.floatImg{
+animation:floatImg 3s ease-in-out infinite;
+}
+
+/* Pulse Button */
+@keyframes pulseBtn{
+0%{transform:scale(1);}
+50%{transform:scale(1.05);}
+100%{transform:scale(1);}
+}
+
+.joinBtn{
+animation:pulseBtn 1.5s infinite;
+}
+
+/* Shine Effect */
+.shine{
+position:relative;
+overflow:hidden;
+}
+
+.shine:before{
+content:'';
+position:absolute;
+top:0;
+left:-120%;
+width:60%;
+height:100%;
+background:rgba(255,255,255,0.2);
+transform:skewX(-20deg);
+animation:shineMove 3s infinite;
+}
+
+@keyframes shineMove{
+100%{
+left:140%;
+}
+}
+
+</style>
+
+<!-- BACKGROUND -->
+<div class="bgGlow1"></div>
+<div class="bgGlow2"></div>
+
+<!-- CARD -->
+<div class="mainCard">
+
+<!-- TOP BADGE -->
+<div style="display:inline-block;
+padding:8px 18px;
+border-radius:40px;
+background:rgba(34,197,94,0.12);
+border:1px solid rgba(134,239,172,0.25);
+font-size:12px;
+font-weight:600;
+color:#bbf7d0;">
+
+🏡 Trusted Work From Home Community
+
+</div>
+
+<!-- PHOTO -->
+<div style="margin-top:24px;
+display:flex;
+justify-content:center;
+align-items:center;">
+
+<div style="padding:5px;
+border-radius:50%;
+background:linear-gradient(135deg,#22c55e,#3b82f6);
+box-shadow:0 0 35px rgba(34,197,94,0.4);">
+
+<img src="https://i.ibb.co/N26T2njs/Whats-App-Image-2026-05-18-at-6-39-23-PM.jpg"
+class="floatImg"
+style="width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #111827;
+display:block;">
+
+</div>
+
+</div>
+
+<!-- NAME -->
+<div style="font-size:31px;
+font-weight:800;
+margin-top:20px;
+line-height:1.5;
+letter-spacing:1px;">
+
+WAITING PROJECT <br>
+
+<span style="color:#86efac;">
+WORK FROM HOME JOB'S 🏡
+</span>
+
+</div>
+
+<!-- TEXT -->
+<div style="font-size:15px;
+line-height:1.9;
+color:#d1d5db;
+margin-top:14px;">
+
+💻 Simple Work From Home Opportunities <br>
+
+📄 Project Based Online Work <br>
+
+💰 Earn From Home With Flexible Timing
+
+</div>
+
+<!-- BUTTON -->
+<a href="https://t.me/+2_XX-UZs63NlYmE1"
+target="_blank"
+class="joinBtn shine"
+style="display:block;
+margin-top:30px;
+background:linear-gradient(90deg,#22c55e,#3b82f6);
+padding:18px;
+border-radius:22px;
+text-decoration:none;
+font-size:20px;
+font-weight:700;
+color:#fff;
+box-shadow:0 0 28px rgba(34,197,94,0.35);">
+
+🚀 JOIN TELEGRAM NOW
+
+</a>
+
+<!-- FEATURES -->
+<div style="margin-top:24px;
+background:rgba(255,255,255,0.04);
+padding:18px;
+border-radius:24px;
+text-align:left;
+font-size:15px;
+line-height:2;
+color:#f3f4f6;">
+
+✅ Work From Home Updates <br>
+
+✅ Beginner Friendly Projects <br>
+
+✅ Flexible Working Hours <br>
+
+✅ Online Support Community
+
+</div>
+
+<!-- LIVE USERS -->
+<div id="liveUsers"
+style="margin-top:18px;
+font-size:14px;
+font-weight:600;
+color:#86efac;">
+
+● 4,936 Members Joined Today
+
+</div>
+
+<!-- ADS BOX -->
+<div style="margin-top:22px;
+padding:15px;
+border-radius:20px;
+background:linear-gradient(90deg,#111827,#1f2937);
+font-size:14px;
+color:#d1d5db;">
+
+🔥 Ads by 
+
+<a href="https://t.me/+65RvsP9pHTtkNzU1"
+style="color:#38bdf8;
+font-weight:bold;
+text-decoration:none;">
+
+AmitGrowthAgency
+
+</a>
+
+</div>
+
+<!-- FOOTER -->
+<div style="font-size:12px;
+color:#9ca3af;
+margin-top:24px;
+line-height:1.8;">
+
+⚠️ Please verify all opportunities before joining.
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+var live = 4936;
+
+setInterval(function(){
+
+live += Math.floor(Math.random()*4);
+
+document.getElementById("liveUsers").innerHTML =
+"● " + live + " Members Joined Today";
+
+},3000);
+
+</script>
